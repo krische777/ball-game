@@ -1,0 +1,15 @@
+#spring:
+#  jpa.hibernate.ddl-auto: update
+#  jpa.database-platform: org.hibernate.dialect.PostgreSQLDialect
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/ballgamedb?currentSchema=public
+#    username: ballgame
+#    password: ballgame
+#    type: com.zaxxer.hikari.HikariDataSource
+#  session:
+#    store-type: jdbc
+#    jdbc:
+#      table-name: SPRING_SESSION
+#      initializer:
+#        enabled: false
+#

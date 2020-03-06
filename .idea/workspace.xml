@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87fb5e8c-b372-4759-9bc9-cdbf95ef0730" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/util/ServiceUtiil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ch/ballgame/config/GameRequestDispatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ch/ballgame/config/NotificationDispatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ch/ballgame/config/WebSocketConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/ch/ballgame/config/WebSocketConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ch/ballgame/engine/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/ch/ballgame/engine/GameEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ch/ballgame/engine/SocketNotificationsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/config/GameRequestDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/engine/GameRequestDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/config/NotificationDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/engine/NotificationDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/config/WebSocketConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/config/WebSocketConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/controller/GameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/engine/GameEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/engine/SocketNotificationsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/engine/GameNotificationsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ch/ballgame/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ballgame" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ballgame" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ballgame" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WUJb2V0a4VLu429xAZSOM9G4ZC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/events" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/static/js" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BallgameApplication (1)">
+    <configuration name="BallgameApplication (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ch.ballgame.BallgameApplication" />
+      <module name="ballgame.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BallgameApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ch.ballgame.BallgameApplication" />
+      <module name="ballgame.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BallgameApplication2" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.ch.ballgame.BallgameApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ch.ballgame.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ch.ballgame.model.Player" />
+      <module name="ballgame.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ch.ballgame.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ch.ballgame.Test" />
+      <module name="ballgame.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ch.ballgame.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.ch.ballgame.BallgameApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ball-game [assemble clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.BallgameApplication (1)" />
+      <item itemvalue="Application.BallgameApplication" />
+      <item itemvalue="Application.BallgameApplication2" />
+      <item itemvalue="Application.Player" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Gradle.ball-game [assemble clean]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BallgameApplication2" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Player" />
+        <item itemvalue="Gradle.ball-game [assemble clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87fb5e8c-b372-4759-9bc9-cdbf95ef0730" name="Default Changelist" comment="" />
+      <created>1579198307525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579198307525</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="396" y="100" key="#BallgameApplication2" timestamp="1581969176605">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state x="396" y="84" key="#BallgameApplication2/0.0.1440.900@0.0.1440.900" timestamp="1581968515946" />
+    <state x="396" y="100" key="#BallgameApplication2/0.23.1440.824@0.23.1440.824" timestamp="1581969176605" />
+    <state x="184" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583346117624">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="184" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825@0.23.1440.825" timestamp="1583346117624" />
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1583347461494">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1583347461494" />
+    <state x="255" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583449895194">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="255" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1583449895194" />
+    <state x="255" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.825@0.23.1440.825" timestamp="1583347080136" />
+    <state width="1398" height="333" key="GridCell.Tab.0.bottom" timestamp="1583479197806">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="333" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583479197806" />
+    <state width="845" height="472" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1583358336249" />
+    <state width="1149" height="269" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1583406915268" />
+    <state width="856" height="194" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583420569113" />
+    <state width="856" height="194" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1583419721221" />
+    <state width="705" height="124" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1583443456897" />
+    <state width="705" height="233" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1583447292414" />
+    <state width="1398" height="333" key="GridCell.Tab.0.center" timestamp="1583479197805">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="333" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583479197805" />
+    <state width="845" height="472" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1583358336248" />
+    <state width="1149" height="269" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1583406915267" />
+    <state width="856" height="194" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1583420569112" />
+    <state width="856" height="194" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1583419721220" />
+    <state width="705" height="124" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1583443456890" />
+    <state width="705" height="233" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1583447292414" />
+    <state width="1398" height="333" key="GridCell.Tab.0.left" timestamp="1583479197804">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="333" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583479197804" />
+    <state width="845" height="472" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1583358336247" />
+    <state width="1149" height="269" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1583406915267" />
+    <state width="856" height="194" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1583420569112" />
+    <state width="856" height="194" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1583419721220" />
+    <state width="705" height="124" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1583443456890" />
+    <state width="705" height="233" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1583447292413" />
+    <state width="1398" height="333" key="GridCell.Tab.0.right" timestamp="1583479197805">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="333" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583479197805" />
+    <state width="845" height="472" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1583358336249" />
+    <state width="1149" height="269" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1583406915268" />
+    <state width="856" height="194" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1583420569113" />
+    <state width="856" height="194" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1583419721221" />
+    <state width="705" height="124" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1583443456896" />
+    <state width="705" height="233" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1583447292414" />
+    <state x="397" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1581962719556">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.824@0.23.1440.824" timestamp="1581962719556" />
+    <state x="458" y="188" key="extract.method.dialog" timestamp="1583478784926">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="188" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1583478784926" />
+    <state x="458" y="195" key="extract.method.dialog/0.23.1440.825@0.23.1440.825" timestamp="1583350423782" />
+    <state x="378" y="51" width="724" height="797" key="find.popup" timestamp="1583478892537">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="378" y="51" width="724" height="797" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1583478892537" />
+    <state x="378" y="70" width="683" height="729" key="find.popup/0.23.1440.824@0.23.1440.824" timestamp="1581968205723" />
+    <state x="378" y="70" width="683" height="730" key="find.popup/0.23.1440.825@0.23.1440.825" timestamp="1583347211743" />
+    <state x="385" y="172" width="670" height="676" key="search.everywhere.popup" timestamp="1583349062988">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="385" y="172" width="670" height="676" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1583349062988" />
+  </component>
+</project>

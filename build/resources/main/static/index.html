@@ -1,0 +1,161 @@
+<html lang="us">
+<head>
+    <title>Cloud Server</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+</head>
+<body>
+
+
+
+<label>Enter Username: </label>
+<input type="text" id="userNameTB" name="userName"><input type="button" onClick="registerUser()" name="userName" value="Join Game">
+<br>
+<label>Scores: </label><div id="playerScores"></div>
+<br>
+
+<input type="button" onClick="startGame()" name="startGame" value="Start Game">
+
+
+<label></label>
+<div onkeydown="handleKeyPress()">
+<canvas id="canvas" width="1200" height="700"
+        style="background-color: #6495ED;"  />
+</div>
+
+<script>
+function registerUser(){
+    var userName = document.getElementById("userNameTB").value;
+    var message = {};
+    message.method = "register";
+    message.params={};
+    message.params.name=userName;
+    var toStr = JSON.stringify(message);
+    window.sock.send(toStr);
+}
+ function connect() {
+ var sock = new SockJS('/sockjs/ballgame' ,undefined, {protocols_whitelist: ["websocket"]});
+ window.sock = sock;
+ sock.onopen = function() {
+     console.log('open');
+ };
+
+ sock.onmessage = function(e) {
+     let msg = JSON.parse(e.data);
+     window.msg=msg;
+     if(msg.players){
+       drawPlayers()
+     }
+     if(msg.responseMethod=="register") {
+       window.currentUUID=JSON.parse(msg.result).player;
+     }
+  };
+
+ sock.onclose = function() {
+     console.log('close');
+     connect();
+     registerUser()
+ };
+}
+
+function handleKeyPress(event){
+    var code = event.keyCode;
+    switch (code) {
+        case 37:
+        case 38:
+        case 39:
+        case 40:
+    var message = {};
+    message.method = "keyPress";
+    message.params={};
+    message.params.key=event.keyCode;
+    var keyPress = JSON.stringify(message);
+    window.sock.send(keyPress);
+    break;
+    default:break; //Everything else
+    }
+
+}
+
+var userToColorMap = new Map();
+
+function getScores(){
+  return window.msg.players.map(p => p.score);
+}
+function getMaxScore(){
+  return Math.max(...getScores());
+}
+
+function drawPlayers() {
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+
+ctx.clearRect(0, 0, canvas.width, canvas.height);
+drawObstacle()
+
+window.msg.players.forEach(player => {
+
+  updatePlayerScore(player)
+  ctx.beginPath();
+  ctx.arc(player.x, player.y, player.size, 0, Math.PI * 2);
+  if(player.uuid==window.currentUUID) {
+      ctx.fillStyle = '#00cc00';
+      if (window.msg.obstacles.length == 0 ) {
+            if(player.score==getMaxScore()) {
+                window.alert("Victory!")
+            } else {
+              window.alert("Sorry, you loose")
+            }
+      }
+  }
+  else {
+      ctx.fillStyle = '#ff9999';
+  }
+  ctx.fill();
+  ctx.closePath();
+});
+
+}
+
+function drawObstacle() {
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+    window.msg.obstacles.forEach(obstacle => {
+      ctx.beginPath()
+      ctx.arc(obstacle.x, obstacle.y, obstacle.size, 0, Math.PI * 2);
+      ctx.fillStyle = '#000099';
+      ctx.fill();
+      ctx.closePath();
+    })
+  }
+
+function updatePlayerScore(player) {
+     var playerScoreHolder = document.getElementById(player.uuid);
+     if(typeof(playerScoreHolder) != 'undefined' && playerScoreHolder != null){
+          playerScoreHolder.innerHTML = `Player ${player.userName} has a score : ${player.score}`
+     } else {
+       var playerScoreHolder = document.getElementById("playerScores");
+       var box = document.createElement("p");
+       box.id = player.uuid
+       playerScoreHolder.appendChild(box)
+       box.innerHTML = `Player ${player.userName} has a score : ${player.score}`
+       console.log("username", player.userName )
+     }
+}
+
+function startGame() {
+    var message = {};
+    message.method = "startGame";
+    message.params={};
+    var toStr = JSON.stringify(message);
+    window.sock.send(toStr);
+}
+
+window.addEventListener('keydown',this.handleKeyPress,false);
+
+window.onload = function() {
+   connect();
+}
+</script>
+</body>
+</html>
