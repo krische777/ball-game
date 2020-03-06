@@ -1,5 +1,5 @@
 # ball-game 
-# A multiplayer game where you can compete to collect more balls and thus earn points
+### A multiplayer game where you can compete to collect more balls and thus earn points
 
 ## Features
 - The users can enter their own username and join a room
